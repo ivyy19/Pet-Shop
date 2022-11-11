@@ -1,0 +1,23 @@
+.div1{
+ width: 640px;
+ height:900px;
+ background-image: linear-gradient(rgb(62, 228, 189),white);
+ float:right;
+}
+body{
+    background-image: url(contact_img.png);
+    background-repeat: no-repeat;
+}
+.p1{
+    font-size:50px;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.852);
+    font-weight: bold;
+}
+.p2{
+    font-size:30px;
+    text-align: left;
+    color: rgba(240, 248, 255, 0.783);
+    font-weight: bold;
+    margin-left:25px;
+}

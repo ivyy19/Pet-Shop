@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+.div1 {
+  height: 600px;
+  width: 350px;
+  background-color: rgb(189, 27, 234);
+  float: left;
+  padding: 10px;
+  clear: none;
+  margin-left: 30px;
+  margin-top: 100px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+.div2 {
+  height: 600px;
+  width: 750px;
+  background-color: rgb(234, 233, 225);
+  float: left;
+  padding: 10px;
+  clear: none;
+  margin-top: 100px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+body {
+  background-image: url("bk.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.p1 {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.p2 {
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+}
+.p3 {
+  font-size: 51px;
+  color: rgb(1, 7, 11);
+  font-weight: bold;
+  text-align: center;
+}
+input[type="password"],
+input[type="text"] {
+  height: 45px;
+  width: 500px;
+  float: center;
+  margin-left: 150px;
+  padding: 4px;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  height: 60px;
+  width: 150px;
+  background-color: rgb(54, 171, 54);
+  color: aliceblue;
+  border: 10px white;
+  float: center;
+  border-radius: 10px;
+  margin-left: 290px;
+  font-size: 24px;
+}
+.p4 {
+  font-size: 30px;
+  color: rgb(1, 7, 11);
+  margin-left: 150px;
+}
+
+@media (max-width: 600px) {
+    /* .example {background: red;} */
+   .div1{
+      margin: 0;
+   }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media (min-width: 601px) and (max-width: 800px) {
+    /* .example {background: blue;} */
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* .example {background: pink;} */
+  }

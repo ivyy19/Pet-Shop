@@ -1,0 +1,62 @@
+.div1{
+    height:1050;
+    width:800;
+    float:left;
+    background-color: rgb(216, 190, 240);
+    color:aliceblue;
+    border-radius: 22px;
+    border-color: blueviolet;
+    opacity:0.9;
+    clear:none;
+}
+.div2{
+    clear:none;
+    float:right;
+}
+body{
+    background-image: linear-gradient(rgb(138, 23, 238), rgb(199, 143, 237));
+}
+.p1{
+    text-align: center;
+    Color:rgb(72, 21, 119);
+   font-size: 75px;
+   font-weight:bold;
+   padding:8px;
+}
+.p2{
+    text-align: left;
+    Color:rgb(65, 11, 116);
+   font-size: 28px;
+   font-weight:bold;
+   padding:5px;
+   margin-bottom:10px;
+   margin-left:40px;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+    height:45px;
+    width:450px;
+    border-radius: 4px;
+    margin-left:160px;
+  
+}
+input[type=submit]{
+    height:60px;
+    width: 300px;
+    background-color: rgb(54, 171, 54);
+    color:aliceblue;
+    border: 10px white;
+    float: center;
+    border-radius: 10px;
+    margin-left: 170px;
+    font-size: 18px;
+}
+input[type="checkbox"]{
+    height: 25px;
+    width:25px;
+    color:black;
+    margin-left:130px;
+}
+label{
+    color:black;
+    font-size: 18px;
+}

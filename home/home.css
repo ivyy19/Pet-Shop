@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap");
+.text-center {
+  text-align: center;
+  margin: auto;
+}
+main {
+  margin-top: 90px;
+  overflow: auto;
+}
+.footer {
+  position: absolute;
+  height: 50;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 10%;
+  font-family: "Inter Tight", sans-serif;
+}
+nav {
+  overflow: hidden;
+  background-color: rgb(208, 155, 223);
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+li {
+  /* display: inline; */
+  float: left;
+}
+li a {
+  text-decoration: none;
+  display: block;
+  padding: 19px;
+  text-align: center;
+  margin: auto;
+  color: rgb(79, 17, 83);
+  font-family: "Alkalami", serif;
+  font-size: 23;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.p1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sofia;
+}
+.div1 {
+  color: black;
+  background-image: linear-gradient(rgb(220, 178, 244), white);
+  margin-top: 20px;
+  box-shadow: 5px 5px 15px white;
+}
+.p2 {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  font-family: cursive;
+}
+img {
+  margin-top: 2px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.img1 {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+body {
+  background-color: rgb(110, 26, 110);
+}
+.open-button {
+  background-color: transparent;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 145px;
+}
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(147, 139, 139);
+  border-radius: 5px;
+}
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: rgb(244, 236, 236);
+  outline: none;
+}
+.btn1 {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.cancel {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.open-button:hover {
+  opacity: 1;
+}
+li a:hover {
+  background-color: #04aa6d;
+  color: whitesmoke;
+}
+li ul{
+  display: none;
+  position:absolute;
+}
+li:hover ul{
+ display:contents;
+  color:purple;
+  font-weight:bold;
+}
+
+li ul li{
+  clear:both;
+  height: auto;
+  width:auto;
+}
